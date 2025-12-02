@@ -7,17 +7,17 @@ function Navbar() {
             <div className="w-full flex justify-center py-4 bg-gray-500 text-white">
                 <div className="container flex justify-between text-lg mx-8">
 
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 text-2xl">
                         <Link to="/home" className="flex items-center gap-2">
                             <FirstAidIcon size={32} className="text-red-600" />
                             <span className="font-bold">Farmácia</span>
                         </Link>
                     </div>
 
-                    <div className="flex gap-4 font-medium ">
+                    <div className="flex gap-4 font-medium items-center text-2xl">
                         <Link to='/categorias' className='hover:text-red-400 font-medium'>Categorias</Link>
+                        <Link to='/produtos' className='hover:text-red-400 font-medium'>Produtos</Link>
                     </div>
-
                 </div>
             </div>
         </>

@@ -1,5 +1,6 @@
-import ListarCategorias from "../../components/categoria/listarcategorias/ListarCategorias";
 import ModalCategoria from "../../components/categoria/modalcategorias/ModalCategoria";
+import ListarProdutosHome from "../../components/produto/listarprodutos/ListarProdutosHome";
+import ModalProduto from "../../components/produto/modalprodutos/ModalProduto";
 
 function Home() {
 
@@ -29,6 +30,7 @@ function Home() {
                             className="flex justify-around gap-4"
                         >
                             <ModalCategoria />
+                            <ModalProduto />
                         </div>
                     </div>
 
@@ -44,8 +46,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="py-2 md:py-0 md:mb-4">
-                <ListarCategorias />
+            <div className="py-2 md:py-0 md:mb-4 ">
+                <ListarProdutosHome />
             </div>
         </>
     )

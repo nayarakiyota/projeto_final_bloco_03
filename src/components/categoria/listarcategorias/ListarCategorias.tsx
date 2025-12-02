@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { SyncLoader } from 'react-spinners'
 import CardCategoria from '../cardcategorias/CardCategorias'
 import { listar } from '../../../services/Service'
-import type Categoria from '../../../models/categoria/Categoria'
+import type Categoria from '../../../models/Categoria'
 
 function ListarCategorias() {
 
@@ -31,7 +31,9 @@ function ListarCategorias() {
             {isLoading && (
                 <SyncLoader
                     color="#dc2626"
+                    margin={0}
                     size={32}
+                    className='mx-auto my-8'
                 />
             )}
             <div className="flex justify-center w-full my-4">
