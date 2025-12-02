@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { ClipLoader } from 'react-spinners'
 import { deletar, listar } from '../../../services/Service'
-import type Categoria from '../../../models/categoria/Categoria'
 import { ToastAlerta } from '../../../utils/ToastAlerta'
+import type Categoria from '../../../models/Categoria'
 
 function DeletarCategoria() {
     const navigate = useNavigate()

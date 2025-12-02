@@ -2,8 +2,8 @@ import { useNavigate, useParams } from "react-router-dom";
 import { atualizar, cadastrar, listar } from "../../../services/Service";
 import { ClipLoader } from "react-spinners";
 import { useEffect, useState, type ChangeEvent } from "react";
-import type Categoria from "../../../models/categoria/Categoria";
 import { ToastAlerta } from "../../../utils/ToastAlerta";
+import type Categoria from "../../../models/Categoria";
 
 function FormCategoria() {
 
