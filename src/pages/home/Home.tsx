@@ -1,3 +1,6 @@
+import ListarCategorias from "../../components/categoria/listarcategorias/ListarCategorias";
+import ModalCategoria from "../../components/categoria/modalcategorias/ModalCategoria";
+
 function Home() {
 
 
@@ -23,10 +26,9 @@ function Home() {
 
                         {/* Link/Botão */}
                         <div
-                            className="rounded py-2 w-1/3 cursor-pointer bg-red-400
-                                hover:bg-red-700 text-white flex justify-center transition delay-2 font-medium"
+                            className="flex justify-around gap-4"
                         >
-                            Nova Categoria
+                            <ModalCategoria />
                         </div>
                     </div>
 
@@ -41,6 +43,9 @@ function Home() {
                         />
                     </div>
                 </div>
+            </div>
+            <div className="py-2 md:py-0 md:mb-4">
+                <ListarCategorias />
             </div>
         </>
     )
