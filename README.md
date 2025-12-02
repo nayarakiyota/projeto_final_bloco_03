@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="https://ik.imagekit.io/qiazjnea4/produtos_farmacia/projetofarmacia.png"
+       alt="Banner"
+       width="900"
+       height="350"
+       style="border-radius: 12px;">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📊 Performance Goal Check
 
-Currently, two official plugins are available:
+Este projeto foi desenvolvido como parte do **Bootcamp Full Stack Java da Generation Brasil**, sendo o **Performance Goal Check (PGC)** do Bloco 03.  
+O PGC funciona como uma avaliação prática, onde precisamos aplicar os conhecimentos aprendidos durante o bloco para construir funcionalidades reais utilizando boas práticas, organização e lógica de programação.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** com TypeScript  
+- **Vite**  
+- **TailwindCSS**  
+- **React Router DOM**  
+- **Axios**  
+- **Git e GitHub**  
+- **API Java Spring Boot** (consumida via requisições HTTP)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📌 Funcionalidades
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Listagem de categorias e produtos  
+- Cadastro, edição e exclusão  
+- Comunicação com API externa  
+- Componentização e organização de pastas  
+- Uso de modais, loaders e rotas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+------
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🛠️ Como Rodar o Projeto Localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/nayarakiyota/projeto_final_bloco_03.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Instale as dependências:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+npm install
+```
+
+3. Execute o projeto:
+
+```
+npm run dev
+```
+
+4. Acesse no navegador:
+
+```
+http://localhost:5173
+```
+
+------
+
+## 📘 Sobre o Bootcamp
+
+O bootcamp da **Generation Brasil**, em parceria com a **PwC**, prepara desenvolvedores Full Stack por meio de práticas reais, metodologias ágeis, projetos integradores e muita mão na massa.
+
+O Performance Goal Check representa nosso avanço, disciplina e capacidade de aplicar conhecimentos adquiridos ao longo dos blocos.
+
+------
+
+## 👩‍💻 Desenvolvedora
+
+**Nayara Kiyota**
+ 🌐 GitHub: [nayarakiyota](https://github.com/nayarakiyota)
+ 💼 LinkedIn: https://www.linkedin.com/in/nayara-kiyota
+
