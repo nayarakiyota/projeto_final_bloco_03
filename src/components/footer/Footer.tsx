@@ -11,7 +11,7 @@ function Footer() {
                     <p className="text-xl font-bold">
                         Projeto Farmácia | Copyright: {data}
                     </p>
-                    <p className="text-lg font-semibold">Acesse nossas Redes Sociais</p>
+                    <p className="text-lg font-semibold">Acesse minhas Redes Sociais</p>
                     <div className="flex gap-2 ">
                         <a href="https://www.linkedin.com/in/nayara-kiyota/" target="_blank">
                             <LinkedinLogoIcon size={48} weight="bold" />
